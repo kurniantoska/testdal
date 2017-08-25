@@ -1,4 +1,4 @@
-#!/home/skater/Dev/test_dal/bin/python3
+#!/home/skater/Dev/testdal/bin/python3
 from django.core import management
 
 if __name__ == "__main__":

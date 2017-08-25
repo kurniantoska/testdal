@@ -1,4 +1,4 @@
-#!/home/skater/Dev/test_dal/bin/python
+#!/home/skater/Dev/testdal/bin/python
 
 import sys
 import getopt
