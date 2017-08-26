@@ -34,7 +34,7 @@ INSTALLED_APPS = [
     # third-party apps
     'dal',
     'dal_select2',
-    'dal_queryset_sequence',
+    # 'dal_queryset_sequence',
 
 
     'django.contrib.admin',

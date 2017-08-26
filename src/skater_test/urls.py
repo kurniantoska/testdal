@@ -15,7 +15,15 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from komputerparts.views import (
+    CpuAutocomplete,
+    KomputerBuiltinCreateView,
+)
+
+
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^api-get-cpu/$', CpuAutocomplete.as_view(), name='api-get-cpu'),
+    url(r'^createkomputerbuiltin/$', KomputerBuiltinCreateView.as_view(), name='create-komputerbuiltin'),
 ]
